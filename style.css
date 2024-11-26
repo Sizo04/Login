@@ -1,1 +1,113 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --main: #1cdef4;
+  --lightbg: #ebffff;
+  --light: #cefdff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F4F4F4;
+}
+body .sign-in {
+  max-width: 1000px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .sign-in .register-container {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .sign-in .register-container form {
+  max-width: 400px;
+  width: 100%;
+}
+body .sign-in .register-container form .input {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+body .sign-in .register-container form .input input {
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  background-color: #FAFAFA;
+}
+body .sign-in .register-container form h1 {
+  margin-bottom: 1.5em;
+  font-size: 30px;
+  font-weight: 300;
+}
+body .sign-in .register-container form label {
+  margin: 0.7em 0;
+  font-weight: 600;
+}
+body .sign-in .register-container form button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--main);
+  color: white;
+  font-weight: 600;
+}
+body .sign-in .register-container form button:hover {
+  background-color: white;
+  color: var(--main);
+  border: 1px solid var(--main);
+}
+body .sign-in aside {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main);
+  color: white;
+}
+body .sign-in aside .container {
+  text-align: center;
+}
+body .sign-in aside .container h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+body .sign-in aside .container h3 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0.7em 0;
+}
+body .sign-in aside .container button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  padding: 1em 2em;
+  font-size: 16px;
+}
+body .sign-in aside .container button:hover {
+  background-color: white;
+  color: var(--main);
+}/*# sourceMappingURL=style.css.map */
